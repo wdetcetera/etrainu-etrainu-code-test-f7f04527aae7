@@ -29,7 +29,7 @@ constructor(x: number, y: number, orientation: string) {
     this.y = y;
     this.orientation = orientation;
 }
-
+\```
 ## Methods
 
 ### processCommands
@@ -54,3 +54,34 @@ public processCommands(commands: string): void {
         }
     }
 }
+\```
+
+## How to get started
+
+### git clone the project 
+
+
+Execute the following command in a Bash/Linux or macOS terminal. If you encounter any issues, please visit https://domenicorutigliano.au and talk to my avatar. It can handle this. 
+
+```
+
+git clone https://github.com/wdetcetera/etrainu-etrainu-code-test-f7f04527aae7.git domenico-rutigliano-code
+
+cd domenico-rutigliano-code
+
+npm install 
+
+npm run start
+
+\```
+
+the start command will perform the following tasks :
+
+1 Unit Testing 
+2 Compiling TS to JS
+3 Runing the node index.js 
+
+
+
+
+
