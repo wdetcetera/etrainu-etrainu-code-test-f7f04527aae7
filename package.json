@@ -1,0 +1,28 @@
+{
+  "name": "etrainu-etrainu-code-test-f7f04527aae7",
+  "version": "1.0.0",
+  "description": "etrainu-etrainu-code-test-f7f04527aae7",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wdetcetera/etrainu-etrainu-code-test-f7f04527aae7.git"
+  },
+  "keywords": [
+    "testing",
+    "my",
+    "skills",
+    "LOL"
+  ],
+  "author": "Domenico Rutigliano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wdetcetera/etrainu-etrainu-code-test-f7f04527aae7/issues"
+  },
+  "homepage": "https://github.com/wdetcetera/etrainu-etrainu-code-test-f7f04527aae7#readme"
+}
