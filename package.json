@@ -7,7 +7,10 @@
     "doc": "docs"
   },
   "scripts": {
-    "test": "test"
+    "copyright":"node copyright.js",
+    "test": "jest",
+    "compile": "tsc",
+    "start": "npm run copyright; npm run test; npm run compile; node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -20,9 +23,14 @@
     "LOL"
   ],
   "author": "Domenico Rutigliano",
-  "license": "ISC",
+  "license": "Custom: Intellectual Property of Domenico Rutigliano. All intellectual property rights in this software and associated Notes are owned by Domenico Rutigliano. Unauthorized use, reproduction, modification, or distribution of this software, in whole or in part, is strictly prohibited",
   "bugs": {
     "url": "https://github.com/wdetcetera/etrainu-etrainu-code-test-f7f04527aae7/issues"
   },
-  "homepage": "https://github.com/wdetcetera/etrainu-etrainu-code-test-f7f04527aae7#readme"
+  "homepage": "https://github.com/wdetcetera/etrainu-etrainu-code-test-f7f04527aae7#readme",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2"
+  }
 }
