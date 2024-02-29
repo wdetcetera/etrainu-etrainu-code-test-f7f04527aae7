@@ -29,7 +29,7 @@ constructor(x: number, y: number, orientation: string) {
     this.y = y;
     this.orientation = orientation;
 }
-\```
+```
 ## Methods
 
 ### processCommands
@@ -54,7 +54,7 @@ public processCommands(commands: string): void {
         }
     }
 }
-\```
+```
 
 ## How to get started
 
@@ -73,7 +73,7 @@ npm install
 
 npm run start
 
-\```
+```
 
 the start command will perform the following tasks :
 
